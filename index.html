@@ -7,13 +7,22 @@
 <meta name="Description" content="Enter your description here"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<link rel="stylesheet" href="assets/css/style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;
+1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
 <title>FAC Concert Series
 </title>
 </head>
 <body>
 
-    <header class="container-fluid">   <!-- div for the main image the stretches to the edge of the page- -->
+    <header class="container-fluid" id="header-image">   <!-- div for the main image the stretches to the edge of the page- -->
       <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <!-- Brand -->
          <!--<a class="navbar-brand" href="#">Concert Series</a>-->
@@ -46,10 +55,10 @@
       </nav> <!--navbar-->
 
         <div class="container">
-            <h1 class="text-center">FREMANTLE ARTS CENTRE</h1>
-            <h1 class="text-center">CONCERT SERIES</h1>
+            <h1 class="FAC">FREMANTLE ARTS CENTRE</h1>
+            <h1 class="CONCERT-SERIES">CONCERT SERIES</h1>
+            <button type="button" class="btn btn-primary">Learn More</button>
         </div> 
-        <button type="button" class="btn btn-primary">Learn More</button>
     </header> <!--top of page header-->
 
 <!--What's On-->
@@ -64,17 +73,17 @@
             <div class="row"><!--  a row that gives us access to the BS columns-->
                 <div class="col-md-4">
                     <img class="img-fluid" alt="Ruel" src="./Images/Ruel.jpg">
-                    <h4 class="text-center">Ruel</h4>
+                    <h4>Ruel</h4>
                     <p class="text-center">The young Aussie pop-sensation. Touring his brand new album ‘4th Wall’.</p>
                 </div> <!--col-md-4-->
                 <div class="col-md-4">
                     <img class="img-fluid" alt="Spacey Jane Band" src="./Images/Spacey Jane.jpg">
-                    <h4 class="text-center">Spacey Jane</h4>
+                    <h4>Spacey Jane</h4>
                     <p class="text-center">The local indie-rock group, who’ve cemented their place as one of Australia’s most loved bands.</p>
                 </div> <!--col-md-4-->
                 <div class="col-md-4">
                     <img class="img-fluid" alt="Ocean Alley Band" src="./Images/Ocean Alley.jpg">
-                    <h4 class="text-center">Ocean Alley</h4>
+                    <h4>Ocean Alley</h4>
                     <p class="text-center">The popular psychedelic-surf-rock band are touring their new album ‘Low Altitude Living’.</p>
                 <div> <!--col-md-4-->
                 </div><!-- row-->
@@ -91,7 +100,7 @@
             <div class="row">
                 <div class="col-md-1">
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-5">
                     <h2>Historical Venue</h2>
                 </div> <!--col-md-4-->
             </div> <!--row-->     
@@ -166,7 +175,7 @@
 
 <!--Support Us-->
 
-    <footer class="container-fluid page_footer">
+    <footer class="container-fluid" id="page_footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-2">
