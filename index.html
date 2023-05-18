@@ -54,16 +54,16 @@
         </div>
       </nav> <!--navbar-->
 
-        <div class="container">
+        <div class="container text-center">
             <h1 class="FAC">FREMANTLE ARTS CENTRE</h1>
             <h1 class="CONCERT-SERIES">CONCERT SERIES</h1>
-            <button type="button" class="btn btn-primary">Learn More</button>
+            <button type="button" class="btn btn-primary" id="header-btn">Learn More</button>
         </div> 
     </header> <!--top of page header-->
 
 <!--What's On-->
 
-    <section class="container-fluid" id="whats-on">
+    <section class="container-fluid text-center" id="whats-on">
         <div class="container">
                 <div>
                     <h2 class="text-center">What's On</h2>
@@ -72,7 +72,7 @@
 
             <div class="row"><!--  a row that gives us access to the BS columns-->
                 <div class="col-md-4">
-                    <img class="img-fluid" alt="Ruel" src="./Images/Ruel.jpg">
+                    <img class="img-fluid int-img" alt="Ruel" src="./Images/Ruel.jpg">
                     <h4 class="artist-title">Ruel</h4>
                     <p class="text-center">The young Aussie pop-sensation. Touring his brand new album ‘4th Wall’.</p>
                 </div> <!--col-md-4-->
@@ -88,7 +88,7 @@
                 <div> <!--col-md-4-->
                 </div><!-- row-->
             </div><!-- container-->
-            <button type="button" class="btn btn-primary" style="margin-top: 5%;">Calendar</button>
+            <button type="button" class="btn btn-primary" id="calendar-btn">Calendar</button>
            </section><!-- container-fluid-->
 
 <!--What's On-->
@@ -98,39 +98,31 @@
     <section class="container-fluid" id="historical-venue">
         <div class="container">
             <div class="row">
-                <div class="col-md-1">
-                </div> <!--col-md-1-->
-                <div class="col-md-10">
-                    <h2 style="margin-bottom: 4%;">Historical Venue</h2>
-                </div> <!--col-md-10-->
-                <div class="col-md-1">
-                </div> <!--col-md-1-->
+                <!-- <div class="col-md-1">
+                </div> col-md-1 -->
+                <!-- <div class="col-md-10"> -->
+                    <h2 class="historical-venue-heading">Historical Venue</h2>
+                <!-- </div> col-md-10 -->
+                <!-- <div class="col-md-1"> -->
+                <!-- </div> --> <!--col-md-1-->
             </div> <!--row-->     
 
             <div class="row">
                 <div class="col-md-1">
                 </div>
-                <div class="col-md-5">
-                    <h4>The best local live music <br> acts, amongst a fascinating <br> backdrop.</h4>
+                <div class="col-md-5 hist">
+                    <h4>The best local live music acts, amongst a fascinating backdrop.</h4>
+                    <p class=" hist-venue-p">Jazz, Reggae, Classical and Rock music, with a series of food and craft markets.<br><br>
+                        <strong>culturally enriching experience in the city of
+                        Fremantle.</strong></p>
+                        <button type="button" class="btn btn-primary" id="venue-btn">Venue</button>
                 </div> <!--col-md-6-->
                 <div class="col-md-5">
-                    <img class="img-fluid" alt="historical building" src="./Images/Historical-Building-FAC.jpg">
+                    <img class="img-fluid hist-img" alt="historical building" src="./Images/Historical-Building-FAC.jpg">
                 </div>
                 <div class="col-md-1">
                 </div>
             </div> <!--row-->
-
-            <div class="row">
-                <div class="col-md-1">
-                </div>
-                <div class="col-md-5">
-                    <p>Jazz, Reggae, Classical and Rock music, with a series of food and craft markets.<br><br>
-                    <strong>culturally enriching experience in the city of <br>
-                    Fremantle.</strong></p>
-                    <button type="button" class="btn btn-primary">Venue</button>
-                </div> <!--col-md-4---->
-            </div> <!--row-->
-
         </div> <!--container-->
     </section><!-- container-fluid-->
 
@@ -141,11 +133,11 @@
     <section class="container-fluid" id="support-us">
         <div class="container">
             <div class="row">
-                <div class="col-md-1">
-                </div> <!--col-md-1-->
-                <div class="col-md-5">
-                    <h2 style="margin-bottom: 15%;">Support us</h2>
-                </div><!--col-md-5-->
+                <!-- <div class="col-md-1"> -->
+                <!-- </div> --> <!--col-md-1-->
+                <!-- <div class="col-md-5"> -->
+                    <h2 class="support-us-heading">Support us</h2>
+                <!-- </div> --><!--col-md-5-->
             </div> <!--row-->
 
             <div class="row">
@@ -155,34 +147,35 @@
                     <img class="img-fluid" alt="Fremantle Arts Centre Grounds" src="./Images/FAC-Grounds.jpg">
                 </div> <!--col-md-5-->
                 <div class="col-md-5">
-                    <p style="font-size: 16px;"><strong>Become a member</strong> and <br>
-                        receive great benefits like <br>
-                        discounts to events and <br> early access to tickets. <br><br>
-
-                        Your support helps us create <br> great events for you.</p>
-                    <button type="button" class="btn btn-primary">Membership</button>
+                    <p style="font-size: 16px;"><strong>Become a member</strong> and
+                        receive great benefits like
+                        discounts to events and early access to tickets. <br><br>
+                        Your support helps us create great events for you.</p>
+                    <button type="button" class="btn btn-primary" id="membership-btn">Membership</button>
                 </div> <!--col-md-5-->
                 <div class="col-md-1">
                 </div> <!--col-md-1-->
             </div> <!--row-->
         
             <div class="row">
-                <div class="col-md-6">
-                </div> <!--col-md-6-->
-                <div class="col-md-4">
-                    <p>“You have to see this please. 
+                <div class="col-md-2">
+                </div> <!--col-md-2-->
+                <div class="col-md-8 sup">
+                    <p class="pull-quote"><strong>“You have to see this please.</strong>
                         They had free music every Sunday 
-                        in the courtyard...excellent. It is 
+                        in the courtyard... <strong>excellent</strong>. It is
                         such a pretty place and the gallery
-                        is great too.” - Opal Bin</p>
+                        is great too.” - <em>Opal Bin</em></p>
                 </div>
+                <div class="col-md-2">      
+                </div> <!--col-md-2-->
             </div> <!--row-->  
         </div><!--container-->
     </section><!--container-fluid-->
 
 <!--Support Us-->
 
-    <footer class="container-fluid" id="page_footer">
+    <footer class="container-fluid text-center" id="page_footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">    
@@ -199,11 +192,24 @@
             <div class="row">
                 <div class="col-md-2">
                 </div> <!--col-md-2-->
-                <div class="col-md-6 blocker">
-                </div> <!--col-md-6-->
+                <div class="col-md-8 blocker">
+                </div> <!--col-md-8-->
                 <div class="col-md-2">
                 </div> <!--col-md-2-->
-            </div>
+            </div> <!--row-->
+
+            <div class="row">
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-3">
+                   <p class="text-align-center"><strong>Location:</strong> 1 Finnerty Street Fremantle Western Australia</p> 
+                </div> <!--col-md-6-->
+                <div class="col-md-3">
+                    <p class="text-align-center"><strong>Contact:</strong> +61 8 9432 9555</p>
+                </div> <!--col-md-6-->
+                <div class="col-md-3">
+                </div>
+            </div> <!--row-->
         </div> <!--container-->
     </footer> <!--container-fluid-->
 
