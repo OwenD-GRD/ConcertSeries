@@ -23,3 +23,33 @@
         margin-top: 5%;
     }
 }
+
+@media only screen and (max-width: 605px) {
+    .FAC {
+        font-size: 1.8em;
+    }
+
+    .CONCERT-SERIES {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2.2em;
+    }
+
+    .tagline {
+        font-size: 1.2em;
+    }
+
+    #historical-venue h4 {
+        font-size: 1.6em;
+    }
+
+    h4 {
+        font-size: 1.8em;
+    }
+
+    .pull-quote {
+        font-size: 1.2em;
+    }
+}
