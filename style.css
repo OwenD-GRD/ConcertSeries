@@ -97,7 +97,7 @@ p {
 }
 
 #whats-on {
-    background-image: url("./images/Rectangle\ 73.jpg");
+    background-image: url("./images/whats-on-background.jpg");
     background-size: cover;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -177,7 +177,7 @@ p {
 }
 
 #page_footer {
-    background-image: url("./images/Footer-background.jpg");
+    background-image: url("./images/footer-background.jpg");
     background-size: cover;
     padding-top: 4%;
     padding-bottom: 4%;
