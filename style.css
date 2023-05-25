@@ -1,7 +1,7 @@
 .nav-link {
     margin-left: 15px;
     margin-right: 15px;
-    font-size: 1vw;
+    font-size: 1em;
     font-family: 'Merriweather Sans';
 }
 
@@ -18,7 +18,7 @@
     font-family: 'Cinzel Decorative', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 4em;
+    font-size: 4rem;
     text-align: center;
     color: #FFFFFF;
     margin-top: 25%;
@@ -164,7 +164,7 @@ p {
     border-left-color: transparent;
     border-bottom-color: transparent;
     border-width: 5px;    
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 #page_footer {
