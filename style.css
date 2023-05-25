@@ -18,7 +18,7 @@
     font-family: 'Cinzel Decorative', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 4vw;
+    font-size: 4em;
     text-align: center;
     color: #FFFFFF;
     margin-top: 25%;
@@ -28,7 +28,7 @@
     font-family: 'Cinzel Decorative';
     font-style: normal;
     font-weight: 700;
-    font-size: 6vw;
+    font-size: 6em;
     text-align: center;
     text-transform: uppercase;
     color: #F09A1B;
@@ -38,7 +38,7 @@ h2 {
     font-family: 'Merriweather Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 3.5vw;
+    font-size: 3.5em;
     color: #FFFFFF;
 }
 
@@ -46,7 +46,7 @@ h4 {
     font-family: 'Merriweather Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 2vw;
+    font-size: 2em;
     align-items: center;
     text-align: center;
     color: #FAFAFA;
@@ -55,18 +55,18 @@ h4 {
 #historical-venue h4 {
     text-align: left;
     color: #49B7B4;
-    font-size: 2vw;
+    font-size: 2em;
 }
 
 p {
     font-family: 'Merriweather Sans', sans-serif;
     color: #FFFFFF;
-    font-size: 1vw;
+    font-size: 1em;
 }
 
 .tagline {
     font-style: italic;
-    font-size: 1.5vw;
+    font-size: 1.5em;
     margin-bottom: 4%;
     margin-top: 2%;
 }
@@ -137,6 +137,7 @@ p {
 
 #support-us {
     background-image: url("./Images/support-us.jpg");
+    background-size: cover;
     padding-top: 5%;
     padding-bottom: 5%;
     max-width: 100%;
@@ -150,10 +151,9 @@ p {
 }
 
 .pull-quote {
-    margin-top: 58px;
     margin-left: 5%;
     text-align: right;
-    font-size: 2vw;
+    font-size: 2em;
 }
 
 .sup {
@@ -164,6 +164,7 @@ p {
     border-left-color: transparent;
     border-bottom-color: transparent;
     border-width: 5px;    
+    margin-top: 10%;
 }
 
 #page_footer {
@@ -197,7 +198,7 @@ p {
     border-radius: 8px;
     font-family: 'Merriweather Sans', sans-serif;
     color: #FFFFFF;
-    font-size: 1vw;
+    font-size: 1em;
 }
 
 #calendar-btn {
