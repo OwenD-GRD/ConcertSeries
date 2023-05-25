@@ -10,17 +10,17 @@
 
             <div class="row"><!--  a row that gives us access to the BS columns-->
                 <div class="col-md-4">
-                    <img class="img-fluid artist-img" alt="Ruel" src="./Images/Ruel.jpg">
+                    <img class="img-fluid artist-img" alt="Ruel" src="http://170.187.231.66/~mesh6/wp-content/themes/ConcertSeries/Images/Ruel.jpg">
                     <h4 class="artist-title">Ruel</h4>
                     <p class="text-center">The young Aussie pop-sensation. Touring his brand new album ‘4th Wall’.</p>
                 </div> <!--col-md-4-->
                 <div class="col-md-4">
-                    <img class="img-fluid artist-img" alt="Spacey Jane Band" src="./Images/Spacey Jane.jpg">
+                    <img class="img-fluid artist-img" alt="Spacey Jane Band" src="http://170.187.231.66/~mesh6/wp-content/themes/ConcertSeries/Images/Spacey Jane.jpg">
                     <h4 class="artist-title">Spacey Jane</h4>
                     <p class="text-center">The local indie-rock group, who’ve cemented their place as one of Australia’s most loved bands.</p>
                 </div> <!--col-md-4-->
                 <div class="col-md-4">
-                    <img class="img-fluid artist-img" alt="Ocean Alley Band" src="./Images/Ocean Alley.jpg">
+                    <img class="img-fluid artist-img" alt="Ocean Alley Band" src="http://170.187.231.66/~mesh6/wp-content/themes/ConcertSeries/Images/Ocean Alley.jpg">
                     <h4 class="artist-title">Ocean Alley</h4>
                     <p class="text-center">The popular psychedelic-surf-rock band are touring their new album ‘Low Altitude Living’.</p>
                 <div> <!--col-md-4-->
@@ -56,7 +56,7 @@
                         <button type="button" class="btn btn-primary" id="venue-btn">Venue</button>
                 </div> <!--col-md-6-->
                 <div class="col-md-5">
-                    <img class="img-fluid hist-img" alt="historical building" src="./Images/Historical-Building-FAC.jpg">
+                    <img class="img-fluid hist-img" alt="historical building" src="http://170.187.231.66/~mesh6/wp-content/themes/ConcertSeries/Images/Historical-Building-FAC.jpg">
                 </div>
                 <div class="col-md-1">
                 </div>
@@ -82,7 +82,7 @@
                 <div class="col-md-1">
                 </div> <!--col-md-1-->
                 <div class="col-md-5">
-                    <img class="img-fluid" alt="Fremantle Arts Centre Grounds" src="./Images/FAC-Grounds.jpg">
+                    <img class="img-fluid" alt="Fremantle Arts Centre Grounds" src="http://170.187.231.66/~mesh6/wp-content/themes/ConcertSeries/Images/FAC-Grounds.jpg">
                 </div> <!--col-md-5-->
                 <div class="col-md-5">
                     <p class="support-p"><strong>Become a member</strong> and
