@@ -221,3 +221,21 @@ p {
 #membership-btn {
     margin-top: 7%;
 }   
+
+#events-header-image {
+    background-image: url("./Images/events-header-image.jpg");
+    background-size: cover;
+    padding-bottom: 15%;
+    max-width: 100%;
+    height: auto;    
+}
+
+.events-header-title {
+    font-family: 'Cinzel Decorative';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;    
+}
