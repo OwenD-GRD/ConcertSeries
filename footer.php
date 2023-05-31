@@ -4,9 +4,9 @@
                 <div class="col-md-4">    
                 </div> <!--col-md-4-->
                 <div class="col-md-4">
-                    <img class="img-fluid social-icons" alt="Facebook Icon" src="./Images/Facebook-Icon.jpg">
-                    <img class="img-fluid social-icons" alt="Instagram Icon" src="./Images/Instagram-Icon.jpg">  
-                    <img class="img-fluid social-icons" alt="Twitter Icon" src="./Images/Twitter-Icon.jpg">  
+                    <img class="img-fluid social-icons" alt="Facebook Icon" src="http://170.187.231.66/~mesh6/wp-content/themes/ConcertSeries/Images/Facebook-Icon.jpg">
+                    <img class="img-fluid social-icons" alt="Instagram Icon" src="http://170.187.231.66/~mesh6/wp-content/themes/ConcertSeries/Images/Instagram-Icon.jpg">  
+                    <img class="img-fluid social-icons" alt="Twitter Icon" src="http://170.187.231.66/~mesh6/wp-content/themes/ConcertSeries/Images/Twitter-Icon.jpg">  
                 </div> <!--col-md-4-->
                 <div class="col-md-4">    
                 </div> <!--col-md-4-->
@@ -36,8 +36,5 @@
         </div> <!--container-->
     </footer> <!--container-fluid-->
     <?php wp_footer(); ?>
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script> -->
 </body>
 </html>
