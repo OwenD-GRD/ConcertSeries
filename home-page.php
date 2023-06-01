@@ -55,7 +55,7 @@ Template Name: Home Page
                 <div class="col-md-1">
                 </div>
                 <div class="col-md-5 hist">
-                    <h4 class="historical-venue-quote"><?php the_field('historicalvenuepullquote'); ?><h4>
+                    <h4><?php the_field('historicalvenuepullquote'); ?></h4>
                     <p class=" hist-venue-p"><?php the_field('historicalvenuedescription'); ?></p>
                         <button type="button" class="btn btn-primary" id="venue-btn">Venue</button>
                 </div> <!--col-md-6-->
