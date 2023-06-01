@@ -49,7 +49,7 @@
                 <div class="col-md-1">
                 </div>
                 <div class="col-md-5 hist">
-                    <h4>The best local live music acts, amongst a fascinating backdrop.</h4>
+                    <h4 class="historical-venue-quote">The best local live music acts, amongst a fascinating backdrop.</h4>
                     <p class=" hist-venue-p">Jazz, Reggae, Classical and Rock music, with a series of food and craft markets.<br><br>
                         <strong>culturally enriching experience in the city of
                         Fremantle.</strong></p>
