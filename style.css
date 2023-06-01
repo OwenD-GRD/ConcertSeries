@@ -62,6 +62,10 @@ h4 {
 }
 
 #historical-venue h4 {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2em;
     text-align: left;
     color: #49B7B4;
     font-size: 2em;
@@ -84,36 +88,36 @@ p {
     margin-top: 5%;
 }
 
-#header-image {
+/* #header-image {
     background-image: url("./Images/header-image.jpg");
     background-size: cover;
     padding-bottom: 15%;
     max-width: 100%;
     height: auto;
-}
+} */
 
 #header-btn {
     margin-top: 5%;
 }
 
-#whats-on {
+/* #whats-on {
     background-image: url("./images/whats-on-background.jpg");
     background-size: cover;
     padding-top: 5%;
     padding-bottom: 5%;
     max-width: 100%;
     height: auto;
-}
+} */
 
 
-#historical-venue {
+/* #historical-venue {
     background-image: url("./Images/historical-venue.jpg");  
     background-size: cover;  
     padding-top: 5%;
     padding-bottom: 5%;
     max-width: 100%;
     height: auto;
-}
+} */
 
 .historical-venue-heading {
     margin-bottom: 4%;
@@ -144,14 +148,14 @@ p {
 
 }
 
-#support-us {
+/* #support-us {
     background-image: url("./Images/support-us.jpg");
     background-size: cover;
     padding-top: 5%;
     padding-bottom: 5%;
     max-width: 100%;
     height: auto;
-}
+} */
 
 .support-us-heading {
     margin-bottom: 4%;
