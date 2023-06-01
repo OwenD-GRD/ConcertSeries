@@ -38,8 +38,8 @@
 </head>
 <body>
 
-    <header class="container-fluid" id="header-image">   <!-- div for the main image the stretches to the edge of the page- -->
-      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <header class="container-fluid" style="background-size:cover; padding-bottom: 15%; max-width: 100%; height: auto; background-image: url(<?php the_field('headerbackgroundimage') ?>);">   <!-- div for the main image the stretches to the edge of the page- -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <!-- Brand -->
          <!--<a class="navbar-brand" href="#">Concert Series</a>-->
       
@@ -50,29 +50,27 @@
       
         <!-- Navbar links -->
         <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">EVENTS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">CONNECT</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">RESOURCES</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">EDUCATION</a>
-            </li>
-          </ul>
-        </div>
+      
+        <?php 
+
+wp_nav_menu( array(
+  'theme_location'  => 'primary',
+  'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
+  'container'       => 'div',
+  'container_class' => 'collapse navbar-collapse',
+  'container_id'    => 'bs-example-navbar-collapse-1',
+  'menu_class'      => 'navbar-nav',
+  'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+  'walker'          => new WP_Bootstrap_Navwalker(),
+) );
+
+?>
+
       </nav> <!--navbar-->
 
         <div class="container text-center">
-            <h1 class="FAC">FREMANTLE ARTS CENTRE</h1>
-            <h1 class="CONCERT-SERIES">CONCERT SERIES</h1>
+            <h1 class="FAC"><?php the_field('headertagone') ?></h1>
+            <h1 class="CONCERT-SERIES"><?php the_field('headertagtwo') ?></h1>
             <button type="button" class="btn btn-primary" id="header-btn">Learn More</button>
         </div>
         <?php wp_head(); ?> 
