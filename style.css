@@ -180,14 +180,14 @@ p {
     margin-top: 5%;
 }
 
-#page_footer {
+/* #page_footer {
     background-image: url("./images/footer-background.jpg");
     background-size: cover;
     padding-top: 4%;
     padding-bottom: 4%;
     max-width: 100%;
     height: auto;
-}
+} */
 
 .social-icons {
     margin: 7%;
