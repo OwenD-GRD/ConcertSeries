@@ -241,5 +241,17 @@ p {
     font-size: 6em;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;    
+    color: #FFFFFF;   
+    margin-top: 20%; 
+}
+
+.tickets-header-title {
+    font-family: 'Cinzel Decorative';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;   
+    margin-top: 20%; 
 }
