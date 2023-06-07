@@ -38,7 +38,7 @@
 </head>
 <body>
 
-    <header class="container-fluid" id="events-header-image">   <!-- div for the main image the stretches to the edge of the page- -->
+    <header class="container-fluid" id="events-header-image" style="background-size:cover; padding-bottom: 15%; max-width: 100%; height: auto; background-image: url(<?php the_field('eventsheaderbackgroundimage') ?>);">   <!-- div for the main image the stretches to the edge of the page- -->
       <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <!-- Brand -->
          <!--<a class="navbar-brand" href="#">Concert Series</a>-->
@@ -71,8 +71,7 @@
       </nav> <!--navbar-->
 
         <div class="container text-center">
-            <h1 class="events-header-title">EVENTS</h1>
-            <button type="button" class="btn btn-primary" id="header-btn">Learn More</button>
+            <h1 class="events-header-title"><?php the_field('eventsheadertag') ?></h1>
         </div>
         <?php wp_head(); ?> 
     </header> <!--top of page header-->
